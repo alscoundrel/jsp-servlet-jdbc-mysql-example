@@ -28,9 +28,9 @@ create table users (
 Ao correr o projeto der erro (pode ser por não associar as dependências):
 1º Acrescente a dependência “catalina.jar” ao projecto.
 Clicar com o botão direito do rato no projeto, selecionar properties->Java Build Path->Libraries->Classpath->Add External JARs
-Se continuar com erros, adicione estas dependências:
-•	jsp-api-xxx.jar;
-•	servlet-api-xxx.jar;
-•	mysql-connector-java-xxx.jar;
-•	jstl-xxx.jar;
+Se continuar com erros, adicione estas dependências:<br>
+•	jsp-api-xxx.jar;<br>
+•	servlet-api-xxx.jar;<br>
+•	mysql-connector-java-xxx.jar;<br>
+•	jstl-xxx.jar;<br>
 •	protobuf-java-xxx.jar (opcional).

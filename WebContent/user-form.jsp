@@ -1,11 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
  <title>User Management Application</title>
 </head>
 <body>
- <center>
+<div style="text-align:center">
   <h1>User Management</h1>
         <h2>
          <a href="new">Add New User</a>
@@ -13,7 +13,7 @@
          <a href="list">List All Users</a>
          
         </h2>
- </center>
+ </div>
     <div align="center">
   <c:if test="${user != null}">
    <form action="update" method="post">

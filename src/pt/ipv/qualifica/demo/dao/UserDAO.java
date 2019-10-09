@@ -18,7 +18,7 @@ import pt.ipv.qualifica.demo.model.User;
  *
  */
 public class UserDAO {
-    private String jdbcURL = "jdbc:mysql://localhost:3306/demo?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    private String jdbcURL = "jdbc:mysql://localhost:3306/demo?useSSL=false";
     private String jdbcUsername = "root";
     private String jdbcPassword = "";
 
