@@ -33,4 +33,4 @@ Se continuar com erros, adicione estas dependências
 •	servlet-api-xxx.jar
 •	mysql-connector-java-xxx.jar
 •	jstl-xxx.jar
-•	protobuf-java-xxx.jar (opcional)
+•	protobuf-java-xxx.jar (opcional).
