@@ -25,12 +25,12 @@ create table users (
 
 # Adicionar na configuração do Mysql (my.ini), na zona de [mysqld] isto default_time_zone='+00:00'
 
-# Ao correr o projeto der erro (pode ser por não associar as dependências):
+Ao correr o projeto der erro (pode ser por não associar as dependências):
 1º Acrescente a dependência “catalina.jar” ao projecto.
 Clicar com o botão direito do rato no projeto, selecionar properties->Java Build Path->Libraries->Classpath->Add External JARs
-Se continuar com erros, adicione estas dependências
-•	jsp-api-xxx.jar
-•	servlet-api-xxx.jar
-•	mysql-connector-java-xxx.jar
-•	jstl-xxx.jar
+Se continuar com erros, adicione estas dependências:
+•	jsp-api-xxx.jar;
+•	servlet-api-xxx.jar;
+•	mysql-connector-java-xxx.jar;
+•	jstl-xxx.jar;
 •	protobuf-java-xxx.jar (opcional).
