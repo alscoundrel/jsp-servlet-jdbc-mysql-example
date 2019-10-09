@@ -12,9 +12,9 @@ this com.mysql.jdbc.Driver is deprecated (descontinuado) is changed to com.mysql
 2º Passarem os ficheiros para as pastas correspondentes (src, WebContent, WebContent->WEB-INF->lib);
 
 # No mysql criar uma base de dados “demo”, código na pasta sql->demo.sql
-CREATE DATABASE demo;
-USE demo;
-
+CREATE DATABASE demo;<br>
+USE demo;<br>
+<br>
 create table users (
  id  int(3) NOT NULL AUTO_INCREMENT,
  name varchar(120) NOT NULL,
