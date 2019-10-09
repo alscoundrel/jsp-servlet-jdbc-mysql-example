@@ -6,7 +6,7 @@ https://www.javaguides.net/2019/03/jsp-servlet-jdbc-mysql-crud-example-tutorial.
 
 this com.mysql.jdbc.Driver is deprecated (descontinuado) is changed to com.mysql.cj.jdbc.Driver
 
-
+# Se não funcionar o copy/past/run on server,...
 # Aconselho a criação de um novo projeto:
 1º “Dynamic web project” (com web.xml) uso do JDK 12;<br>
 2º Passarem os ficheiros para as pastas correspondentes (src, WebContent, WebContent->WEB-INF->lib);
